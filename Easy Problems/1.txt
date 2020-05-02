@@ -1,1 +1,7 @@
 These will be 100 easy level problems on Codechef
+
+Following is the followed for naming all the files
+
+file_name.py 
+
+file_name is the name of the problem code on Codechef
