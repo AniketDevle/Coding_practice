@@ -4,4 +4,4 @@ Following is the followed for naming all the files
 
 file_name.py 
 
-file_name is the name of the problem code on Codechef
+file_name is the name of the problem code on Codechef in the practice section 
