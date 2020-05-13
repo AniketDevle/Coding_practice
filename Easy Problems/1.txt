@@ -1,6 +1,4 @@
-These will be 100 easy level problems on Codechef
-
-Following is the followed for naming all the files
+100 easy level problems on Codechef
 
 file_name.py 
 
