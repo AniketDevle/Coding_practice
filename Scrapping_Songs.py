@@ -4,11 +4,11 @@ import requests
 req = requests.get("https://www.azlyrics.com/lyrics/zaynmalik/dusktilldawn.html")
 soup = BS(req.text , 'xml')
 
-Lyrics = soup.find_all('div' , { 'class': 'col-xs-12 col-lg-8 text-center'})[0]
+Lyr = soup.find_all('div' , { 'class': 'col-xs-12 col-lg-8 text-center'})[0]
 
-song = Lyrics.find_all('div' , {'class' : 'addthis_toolbox addthis_default_style'})[0]
+so = Lyr.find_all('div' , {'class' : 'addthis_toolbox addthis_default_style'})[0]
 
-lr = song.find_all('div' , {'class': None})[0]
+lr = so.find_all('div' , {'class': None})[0]
 
 print(lr)
 
